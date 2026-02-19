@@ -1,0 +1,19 @@
+/* App level base reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg-primary);
+}
+
+.page-wrapper {
+  flex: 1;
+  padding-top: 72px;
+  /* Navbar height offset */
+}
